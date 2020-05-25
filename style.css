@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,255,1) 100%);
+}
+.center {
+  background-color: #FF4136;
+  width: 30vh;
+  height: 30vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h1,p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color:azure
+}
+.bottom{
+  bottom: 10px;
+  position: absolute;
+  background-color: white;
+  width: 50vw;
+  height: 5px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
